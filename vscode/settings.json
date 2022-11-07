@@ -1,0 +1,60 @@
+{
+  "settingsSync.ignoredSettings": [
+    "editor.fontFamily",
+    "editor.fontWeight"
+  ],
+
+  // Editor
+  "editor.fontSize": 18,
+  "editor.lineHeight": 1.8,
+  "editor.fontWeight": "normal",
+  "editor.lineNumbers": "relative",
+  "editor.fontFamily": "dank mono, monaco, monospace",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.accessibilitySupport": "off",
+  "editor.inlineSuggest.enabled": true, // https://www.youtube.com/watch?v=B89NXOqif-E
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "editor.tabCompletion": "onlySnippets",
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "editor.fontLigatures": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.wordSeparators": "`~!@$%^&*()=+[{]}\\|;:'\",<>\/.?",
+  "breadcrumbs.enabled": true, // https://stackoverflow.com/questions/52957333/how-to-show-breadcrumbs-on-visual-studio-code
+  "debug.console.fontFamily": "dank mono, monaco, monospace",
+  "workbench.iconTheme": "bearded-icons",
+
+  // Terminal
+  "terminal.integrated.fontFamily": "monaco, monospace",
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  // Eslint + Prettier
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.bracketSpacing": false,
+  "prettier.requireConfig": true,
+
+  // Javascript
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Typescript
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Json
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
