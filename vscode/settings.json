@@ -19,7 +19,7 @@
       "source.fixAll.eslint": true
   },
   "editor.tabCompletion": "onlySnippets",
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "off",
   "editor.suggestSelection": "first",
   "editor.fontLigatures": true,
   "editor.snippetSuggestions": "bottom",
@@ -35,6 +35,18 @@
     }
   },
   "workbench.colorTheme": "Low Eye Strain Light",
+
+
+  // Multi Commands
+  "multiCommand.commands": [   
+      {
+        "command": "multiCommand.saveAndCloseEditor",
+        "sequence": [
+          "workbench.action.files.save",
+          "workbench.action.closeActiveEditor",
+        ]
+      }
+  ],
 
   // Terminal
   "terminal.integrated.fontFamily": "monaco, monospace",
@@ -63,6 +75,10 @@
 
   // Json
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
