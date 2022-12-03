@@ -36,6 +36,12 @@
   },
   "workbench.colorTheme": "Low Eye Strain Light",
 
+  // Debugging
+  "debug.javascript.terminalOptions": {
+    "skipFiles": [
+      "<node_internals>/**"
+    ]
+  },
 
   // Multi Commands
   "multiCommand.commands": [   
@@ -72,15 +78,17 @@
   // Typescript
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  // https://stackoverflow.com/questions/55537574/format-tsx-files-on-save-in-vs-code
+  "typescript.format.enable": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // Json
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "redhat.telemetry.enabled": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
 
   // Newly added (Settigs that were added from the UI and need to be categorizes)
 }
