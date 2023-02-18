@@ -12,7 +12,7 @@
   "editor.fontFamily": "dank mono, monaco, monospace",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.accessibilitySupport": "off",
   "editor.inlineSuggest.enabled": true, // https://www.youtube.com/watch?v=B89NXOqif-E
   "editor.codeActionsOnSave": {
@@ -65,6 +65,9 @@
   // Eslint + Prettier
   "eslint.enable": true,
   "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".ts", ".tsx"]
+  },
   "prettier.bracketSpacing": false,
   "prettier.requireConfig": true,
 
@@ -81,14 +84,30 @@
   // https://stackoverflow.com/questions/55537574/format-tsx-files-on-save-in-vs-code
   "typescript.format.enable": false,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+
 
   // Json
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "redhat.telemetry.enabled": false,
+
+  // Markdown
+  "[markdown]": {
+    "editor.formatOnSave": false, // Disabled as it does more harm than good
+    "files.trimTrailingWhitespace": false,
+  },
+  "todohighlight.isEnable": true
 
   // Newly added (Settigs that were added from the UI and need to be categorizes)
 }
