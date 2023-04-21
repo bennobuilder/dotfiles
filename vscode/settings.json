@@ -12,7 +12,7 @@
   "editor.fontFamily": "dank mono, monaco, monospace",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
-  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSmoothCaretAnimation": "off",
   "editor.accessibilitySupport": "off",
   "editor.inlineSuggest.enabled": true, // https://www.youtube.com/watch?v=B89NXOqif-E
   "editor.codeActionsOnSave": {
@@ -83,6 +83,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   // https://stackoverflow.com/questions/55537574/format-tsx-files-on-save-in-vs-code
   "typescript.format.enable": false,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
@@ -93,7 +94,7 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
-  }
+  },
 
 
   // Json
