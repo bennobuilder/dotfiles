@@ -23,8 +23,7 @@
   "editor.suggestSelection": "first",
   "editor.fontLigatures": true,
   "editor.snippetSuggestions": "bottom",
-  "editor.wordSeparators": "`~!@$%^&*()=+[{]}\\|;:'\",<>\/.?",
-  "breadcrumbs.enabled": true, // https://stackoverflow.com/questions/52957333/how-to-show-breadcrumbs-on-visual-studio-code
+  "editor.wordSeparators": "`~!@$%^&*()=+[{]}\\|;:'\",<>\/.?", // https://stackoverflow.com/questions/52957333/how-to-show-breadcrumbs-on-visual-studio-code
   "debug.console.fontFamily": "dank mono, monaco, monospace",
   "workbench.iconTheme": "bearded-icons",
   // https://code.visualstudio.com/api/references/theme-color
@@ -51,7 +50,7 @@
           "workbench.action.files.save",
           "workbench.action.closeActiveEditor",
         ]
-      }
+      },
   ],
 
   // Terminal
@@ -108,7 +107,9 @@
     "editor.formatOnSave": false, // Disabled as it does more harm than good
     "files.trimTrailingWhitespace": false,
   },
-  "todohighlight.isEnable": true
+  "todohighlight.isEnable": true,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.env.windows": {}
 
   // Newly added (Settigs that were added from the UI and need to be categorizes)
 }
