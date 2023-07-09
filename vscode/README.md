@@ -30,6 +30,22 @@ Version: 2.5.0
 Publisher: Sergii N
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
 
+#### indent-rainbow
+Name: indent-rainbow
+Id: oderwat.indent-rainbow
+Description: Makes indentation easier to read
+Version: 8.3.1
+Publisher: oderwat
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+
+#### Image preview
+Name: Image preview
+Id: kisstkondoros.vscode-gutter-preview
+Description: Shows image preview in the gutter and on hover
+Version: 0.30.0
+Publisher: Kiss Tamás
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
+
 ### Error Handling
 
 #### Error Lens
@@ -81,6 +97,15 @@ Description: highlight TODOs, FIXMEs, and any keywords, annotations...
 Version: 2.0.8
 Publisher: Jonathan Clark
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight
+
+#### Toggle Quotes
+Name: Toggle Quotes
+Id: BriteSnow.vscode-toggle-quotes
+Description: Toggle cycle " -> ' -> `
+Version: 0.3.6
+Publisher: BriteSnow
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes
+
 
 ### Tracking
 
@@ -159,3 +184,11 @@ Description: AI-assisted development
 Version: 1.2.30
 Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+
+#### Console Ninja
+Name: Console Ninja
+Id: WallabyJs.console-ninja
+Description: JavaScript console.log output and runtime errors right next to your code.
+Version: 0.0.181
+Publisher: Wallaby.js
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja
