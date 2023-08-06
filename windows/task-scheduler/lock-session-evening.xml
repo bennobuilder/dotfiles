@@ -1,0 +1,50 @@
+<!--  SPDX-License-Identifier: CC0-1.0  -->
+<Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task" version="1.2">
+    <RegistrationInfo>
+        <Description>Lock session in the evening</Description>
+        <URI>\lock-session-evening</URI>
+    </RegistrationInfo>
+    <Triggers>
+        <CalendarTrigger>
+            <StartBoundary>2023-01-01T20:05:00</StartBoundary>
+            <Enabled>true</Enabled>
+            <ScheduleByWeek>
+                <DaysOfWeek>
+                    <Monday>true</Monday>
+                    <Tuesday>true</Tuesday>
+                    <Wednesday>true</Wednesday>
+                    <Thursday>true</Thursday>
+                    <Friday>false</Friday>
+                    <Saturday>false</Saturday>
+                    <Sunday>true</Sunday>
+                </DaysOfWeek>
+                <WeeksInterval>1</WeeksInterval>
+            </ScheduleByWeek>
+        </CalendarTrigger>
+    </Triggers>
+    <Principals>
+        <Principal id="User">
+            <LogonType>InteractiveToken</LogonType>
+            <RunLevel>LeastPrivilege</RunLevel>
+        </Principal>
+    </Principals>
+    <Settings>
+        <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+        <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+        <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+        <AllowHardTerminate>true</AllowHardTerminate>
+        <AllowStartOnDemand>true</AllowStartOnDemand>
+        <Enabled>true</Enabled>
+        <Hidden>false</Hidden>
+        <RunOnlyIfIdle>false</RunOnlyIfIdle>
+        <WakeToRun>false</WakeToRun>
+        <ExecutionTimeLimit>PT0S</ExecutionTimeLimit>
+        <Priority>7</Priority>
+    </Settings>
+    <Actions Context="User">
+        <Exec>
+            <Command>%WINDIR%\System32\rundll32.exe</Command>
+            <Arguments>user32.dll, LockWorkStation</Arguments>
+        </Exec>
+    </Actions>
+</Task>
