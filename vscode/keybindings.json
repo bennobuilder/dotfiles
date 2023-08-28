@@ -8,15 +8,5 @@
     "key": "ctrl+w",
     "command": "extension.multiCommand.execute",
     "args": { "command": "multiCommand.saveAndCloseEditor" }
-  },
-  {
-    "key": "l",
-    "command": "breadcrumbs.focusNext",
-    "when": "!editorTextFocus"
-  },
-  {
-    "key": "h",
-    "command": "breadcrumbs.focusPrevious",
-    "when": "!editorTextFocus"
   }
 ]
