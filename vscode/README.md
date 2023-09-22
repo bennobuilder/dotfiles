@@ -175,6 +175,30 @@ Version: 1.25.0
 Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 
+#### Even Better TOML
+Name: Even Better TOML
+Id: tamasfe.even-better-toml
+Description: Fully-featured TOML support
+Version: 0.19.2
+Publisher: tamasfe
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
+
+#### crates
+Name: crates
+Id: serayuzgur.crates
+Description: Helps Rust developers managing dependencies with Cargo.toml.
+Version: 0.6.3
+Publisher: Seray Uzgur
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates
+
+#### rust-analyzer
+Name: rust-analyzer
+Id: rust-lang.rust-analyzer
+Description: Rust language support for Visual Studio Code
+Version: 0.3.1665
+Publisher: The Rust Programming Language
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
+
 ### Code Assistents
 
 #### IntelliCode
@@ -185,6 +209,14 @@ Version: 1.2.30
 Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
 
+#### CodeLLDB
+Name: CodeLLDB
+Id: vadimcn.vscode-lldb
+Description: A native debugger powered by LLDB. Debug C++, Rust and other compiled languages.
+Version 1.10.0
+Publisher: Vadim Chugunov
+Vs Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+
 #### Console Ninja
 Name: Console Ninja
 Id: WallabyJs.console-ninja
@@ -192,3 +224,13 @@ Description: JavaScript console.log output and runtime errors right next to your
 Version: 0.0.181
 Publisher: Wallaby.js
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja
+
+### Git
+
+#### Git Graph
+Name: Git Graph
+Id: mhutchie.git-graph
+Description: View a Git Graph of your repository, and perform Git actions from the graph.
+Version: 1.30.0
+Publisher: mhutchie
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
