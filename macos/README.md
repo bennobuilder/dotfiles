@@ -1,6 +1,7 @@
 # MacOS
 
 ## Daily
+> https://www.youtube.com/watch?v=Kft9Y33oc2I&list=WL&index=2
 
 ### Apps
 - [Notion](https://www.notion.so/) - All-in-one workspace for notes, tasks, and collaboration
