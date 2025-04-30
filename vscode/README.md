@@ -1,160 +1,176 @@
-# VSCode
+# VSCode Extensions
 
-## Extensions
+## 🎨 UI & Theming
+### Theme
+- **Id**: `cosmicsarthak.cosmicsarthak-neon-theme`
+- **Description**: Colourful Neon Dark Theme to lower eye strain for night owls, youth devs and workaholics ✨ with full support for 'react', 'vue', 'C++', 'java', 'python' and a special 'Cyberpunk Theme'
+- **VS Marketplace**: [Low Eye Strain Dark Neon](https://marketplace.visualstudio.com/items?itemName=cosmicsarthak.cosmicsarthak-neon-theme)
 
-### Themes
+### Visual Enhancements
+- **Bearded Icons**
+  - **Id**: `BeardedBear.beardedicons`
+  - **Description**: The icons with a long beard
+  - **VS Marketplace**: [Bearded Icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons)
 
-#### Low Eye Strain Dark Neon
-> Theme: `Light and Contrast`
-- *Id*: `cosmicsarthak.cosmicsarthak-neon-theme`
-- *Description*: Colourful Neon Dark Theme to lower eye strain for night owls, youth devs and workaholics ✨ with full support for 'react', 'vue', 'C++', 'java', 'python' and a special 'Cyberpunk Theme'
-- *VS Marketplace Link*: [Low Eye Strain Dark Neon](https://marketplace.visualstudio.com/items?itemName=cosmicsarthak.cosmicsarthak-neon-theme)
+- **Color Highlight**
+  - **Id**: `naumovs.color-highlight`
+  - **Description**: Highlight web colors in your editor
+  - **VS Marketplace**: [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
-#### Bearded Icons
-- *Id*: `BeardedBear.beardedicons`
-- *Description*: The icons with a long beard.
-- *VS Marketplace Link*: [Bearded Icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons)
+- **indent-rainbow**
+  - **Id**: `oderwat.indent-rainbow`
+  - **Description**: Makes indentation easier to read
+  - **VS Marketplace**: [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
-#### Color Highlight
-- *Id*: `naumovs.color-highlight`
-- *Description*: Highlight web colors in your editor
-- *VS Marketplace Link*: [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+## 🛠️ Core Development Tools
 
-#### indent-rainbow
-- *Id*: `oderwat.indent-rainbow`
-- *Description*: Makes indentation easier to read
-- *VS Marketplace Link*: [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+### Editor Enhancement
+- **Vim**
+  - **Id**: `vscodevim.vim`
+  - **Description**: Vim emulation for Visual Studio Code
+  - **VS Marketplace**: [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
-### Error Handling
+- **TODO Highlight v2**
+  - **Id**: `jgclark.vscode-todo-highlight`
+  - **Description**: Highlight TODOs, FIXMEs, and any keywords, annotations...
+  - **VS Marketplace**: [TODO Highlight v2](https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight)
 
-#### Error Lens
-- *Id*: `usernamehw.errorlens`
-- *Description*: Improve highlighting of errors, warnings and other language diagnostics.
-- *VS Marketplace Link*: [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+### Code Quality & Linting
+- **ESLint**
+  - **Id**: `dbaeumer.vscode-eslint`
+  - **Description**: Integrates ESLint JavaScript into VS Code
+  - **VS Marketplace**: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-#### Pretty TypeScript Errors
-- *Id*: `yoavbls.pretty-ts-errors`
-- *Description*: Make TypeScript errors prettier and more human-readable in VSCode
-- *VS Marketplace Link*: [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
+- **Prettier**
+  - **Id**: `esbenp.prettier-vscode`
+  - **Description**: Code formatter using prettier
+  - **VS Marketplace**: [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-### Formatting
+### Error Detection
+- **Error Lens**
+  - **Id**: `usernamehw.errorlens`
+  - **Description**: Improve highlighting of errors, warnings and other language diagnostics
+  - **VS Marketplace**: [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
-#### ESLint
-- *Id*: `dbaeumer.vscode-eslint`
-- *Description*: Integrates ESLint JavaScript into VS Code.
-- *VS Marketplace Link*: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- **Pretty TypeScript Errors**
+  - **Id**: `yoavbls.pretty-ts-errors`
+  - **Description**: Make TypeScript errors prettier and more human-readable in VSCode
+  - **VS Marketplace**: [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
 
-#### Prettier - Code Formatter
-- *Id*: `esbenp.prettier-vscode`
-- *Description*: Code formatter using prettier
-- *VS Marketplace Link*: [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## 💻 Language Support
 
-#### Vim
-- *Id*: `vscodevim.vim`
-- *Description*: Vim emulation for Visual Studio Code
-- *VS Marketplace Link*: [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+### Web Technologies
+- **Tailwind CSS IntelliSense**
+  - **Id**: `bradlc.vscode-tailwindcss`
+  - **Description**: Intelligent Tailwind CSS tooling for VS Code
+  - **VS Marketplace**: [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-#### TODO Highlight v2
-- *Id*: `jgclark.vscode-todo-highlight`
-- *Description*: Highlight TODOs, FIXMEs, and any keywords, annotations...
-- *VS Marketplace Link*: [TODO Highlight v2](https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight)
+- **PostCSS Language Support**
+  - **Id**: `csstools.postcss`
+  - **Description**: Syntax highlighting for modern and experimental CSS in VSCode
+  - **VS Marketplace**: [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 
-### Tracking
+- **MDX**
+  - **Id**: `unifiedjs.vscode-mdx`
+  - **Description**: Language support for MDX
+  - **VS Marketplace**: [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)
 
-#### WakaTime
-- *Id*: `WakaTime.vscode-wakatime`
-- *Description*: Metrics, insights, and time tracking automatically generated from your programming activity.
-- *VS Marketplace Link*: [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
+### Rust Development
+- **rust-analyzer**
+  - **Id**: `rust-lang.rust-analyzer`
+  - **Description**: Rust language support for Visual Studio Code
+  - **VS Marketplace**: [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
-### Language & Package Support
+- **crates**
+  - **Id**: `serayuzgur.crates`
+  - **Description**: Helps Rust developers managing dependencies with Cargo.toml
+  - **VS Marketplace**: [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)
 
-#### YAML
-- *Id*: `redhat.vscode-yaml`
-- *Description*: YAML Language Support by Red Hat, with built-in Kubernetes syntax support
-- *VS Marketplace Link*: [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+- **Rust Test Explorer**
+  - **Id**: `swellaby.vscode-rust-test-adapter`
+  - **Description**: View and run your Rust tests in the Sidebar of Visual Studio Code
+  - **VS Marketplace**: [Rust Test Explorer](https://marketplace.visualstudio.com/items?itemName=swellaby.vscode-rust-test-adapter)
 
-#### Tailwind CSS IntelliSense 
-- *Id*: `bradlc.vscode-tailwindcss`
-- *Description*: Intelligent Tailwind CSS tooling for VS Code
-- *VS Marketplace Link*: [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- **CodeLLDB**
+  - **Id**: `vadimcn.vscode-lldb`
+  - **Description**: A native debugger powered by LLDB. Debug C++, Rust and other compiled languages
+  - **VS Marketplace**: [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 
-#### Prisma
-- *Id*: `Prisma.prisma`  
-- *Description*: Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.  
-- *VS Marketplace Link*: [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
+## 🗄️ Data & API Tools
 
-#### PostCSS Language Support
-- *Id*: `csstools.postcss` 
-- *Description*: Syntax highlighting for modern and experimental CSS in VSCode 
-- *VS Marketplace Link*: [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
+### Database Management
+- **SQLTools**
+  - **Id**: `mtxr.sqltools`
+  - **Description**: Database management done right. Connects to MySQL, PostgreSQL, Microsoft SQL Server, and many more
+  - **VS Marketplace**: [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
+  - **Tutorial**: [SQLTools Tutorial](https://www.youtube.com/watch?v=cc-cSSsGqbA)
 
-#### MDX
-- *Id*: `unifiedjs.vscode-mdx`
-- *Description*: Language support for MDX
-- *VS Marketplace Link*: [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)
+### Database ORM
+- **Prisma**
+  - **Id**: `Prisma.prisma`
+  - **Description**: Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files
+  - **VS Marketplace**: [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
 
-#### Docker
-- *Id*: `ms-azuretools.vscode-docker`
-- *Description*: Makes it easy to create, manage, and debug containerized applications.
-- *VS Marketplace Link*: [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+### API Development
+- **Thunder Client** _(Replaced by Bruno)_
+  - **Id**: `rangav.vscode-thunder-client`
+  - **Description**: Lightweight Rest API Client for VS Code
+  - **VS Marketplace**: [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+  - **Note**: Replaced with Bruno due to better Git integration for API collections
 
-#### Even Better TOML
-- *Id*: `tamasfe.even-better-toml`
-- *Description*: Fully-featured TOML support
-- *VS Marketplace Link*: [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+### API Documentation
+- **Swagger Viewer**
+  - **Id**: `Arjun.swagger-viewer`
+  - **Description**: Swagger Viewer lets you preview and validate Swagger 2.0 and OpenAPI files as you type in Visual Studio Code
+  - **VS Marketplace**: [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer)
 
-#### crates
-- *Id*: `serayuzgur.crates` 
-- *Description*: Helps Rust developers managing dependencies with Cargo.toml.
-- *VS Marketplace Link*: [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)
+## 🔧 DevOps & Configuration
 
-#### rust-analyzer
-- *Id*: `rust-lang.rust-analyzer`
-- *Description*: Rust language support for Visual Studio Code
-- *VS Marketplace Link*: [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### Container & Shell
+- **Docker**
+  - **Id**: `ms-azuretools.vscode-docker`
+  - **Description**: Makes it easy to create, manage, and debug containerized applications
+  - **VS Marketplace**: [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-#### Rust Test Explorer
-- *Id*: `swellaby.vscode-rust-test-adapter`
-- *Description*: View and run your Rust tests in the Sidebar of Visual Studio Code
-- *VS Marketplace Link*: [Rust Test Explorer](https://marketplace.visualstudio.com/items?itemName=swellaby.vscode-rust-test-adapter)
+- **shell-format**
+  - **Id**: `foxundermoon.shell-format`
+  - **Description**: A formatter for shell scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types
+  - **VS Marketplace**: [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
 
-#### shell-format
-- *Id*: `	foxundermoon.shell-format`
-- *Description*: A formatter for shell scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types
-- *VS Marketplace Link*: [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
+### Configuration Files
+- **YAML**
+  - **Id**: `redhat.vscode-yaml`
+  - **Description**: YAML Language Support by Red Hat, with built-in Kubernetes syntax support
+  - **VS Marketplace**: [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
-### Preview
+- **Even Better TOML**
+  - **Id**: `tamasfe.even-better-toml`
+  - **Description**: Fully-featured TOML support
+  - **VS Marketplace**: [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 
-#### Image preview
-- *Id*: `kisstkondoros.vscode-gutter-preview`
-- *Description*: Shows image preview in the gutter and on hover
-- *VS Marketplace Link*: [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+## 📊 Productivity & Analytics
 
-#### Swagger Viewer
-- *Id*: `Arjun.swagger-viewer`
-- *Description*: Swagger Viewer lets you preview and validate Swagger 2.0 and OpenAPI files as you type in Visual Studio Code.
-- *VS Marketplace Link*: [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer)
+### Metrics & Tracking
+- **WakaTime**
+  - **Id**: `WakaTime.vscode-wakatime`
+  - **Description**: Metrics, insights, and time tracking automatically generated from your programming activity
+  - **VS Marketplace**: [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
 
-#### vscode-pdf
-- *Id*: `tomoki1207.pdf`
-- *Description*: Display pdf file in VSCode.
-- *VS Marketplace Link*: [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+### AI Assistance
+- **IntelliCode**
+  - **Id**: `VisualStudioExptTeam.vscodeintellicode`
+  - **Description**: AI-assisted development
+  - **VS Marketplace**: [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-### Helper
+## 👁️ Preview & Media
 
-#### Thunder Client
-- *Id*: `rangav.vscode-thunder-client`
-- *Description*: Lightweight Rest API Client for VS Code
-- *VS Marketplace Link*: [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+### File Preview
+- **Image preview**
+  - **Id**: `kisstkondoros.vscode-gutter-preview`
+  - **Description**: Shows image preview in the gutter and on hover
+  - **VS Marketplace**: [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 
-### Code Assistants
-
-#### IntelliCode
-- *Id*: `VisualStudioExptTeam.vscodeintellicode`
-- *Description*: AI-assisted development
-- *VS Marketplace Link*: [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-#### CodeLLDB
-- *Id*: `vadimcn.vscode-lldb`
-- *Description*: A native debugger powered by LLDB. Debug C++, Rust and other compiled languages.
-- *VS Marketplace Link*: [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
+- **vscode-pdf**
+  - **Id**: `tomoki1207.pdf`
+  - **Description**: Display pdf file in VSCode
+  - **VS Marketplace**: [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
