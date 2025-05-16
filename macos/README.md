@@ -20,7 +20,6 @@
 - [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid) - Remove YouTube Recommended & Shorts
 - [Save to Notion](https://chromewebstore.google.com/detail/save-to-notion/ldmmifpegigmeammaeckplhnjbbpccmm) - Save the Web to Notion
 - [Return YouTube Dislike](https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi) - Shows you dislikes on Youtube
-- [GoFullPage](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl) - Full Page Screen Capture
 
 ## Software Engineer
 
@@ -41,12 +40,16 @@
 
 ### Browser Plugins
 - [TechStack](https://chromewebstore.google.com/detail/techstack-show-github-rep/lbhjnhabgddabnagncmcgomggeadlbhh) - Show Github Repo Tech Stack
+- [Refined GitHub](https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf) - Simplify the GitHub interface and adds useful features
 
 ## Designer
 
 ### Apps
 - [Figma](https://www.figma.com/) - Collaborative interface design tool
 - [Blender](https://www.blender.org/) - Free and open source software for 3D graphics
+
+### Browser Plugins
+- [GoFullPage](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl) - Full Page Screen Capture
 
 ## Film Maker
 
